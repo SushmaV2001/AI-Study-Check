@@ -43,3 +43,25 @@ The app does not automatically send results to a server. The downloaded file rem
 
 ## Suggested demonstration
 Show one question in each version, then display the summary and downloaded JSON. Explain how the interface presents AI advice at different times and what the recorded responses can and cannot show.
+
+## Development record
+
+### 1. Scenario refinement
+The initial design explored AI overreliance through recruitment decisions. This was changed to exam revision to provide a more relevant and familiar scenario for university students. The underlying research problem remained overreliance on AI recommendations.
+
+### 2. Interaction design
+Two versions were developed: answering independently before seeing AI advice, and seeing AI advice immediately. This allows comparison of final answers, while changes between initial and final answers can only be recorded in the answer-first version.
+
+### 3. Prototype implementation
+The prototype was developed using HTML, CSS and JavaScript. Three exam-revision questions were included, with two intentionally incorrect simulated AI suggestions and one correct suggestion. Feedback, progress indicators, session summaries and JSON export were implemented.
+
+### 4. Testing and refinement
+Both interaction versions were manually tested by completing the questions and checking the recorded answers, feedback and summaries. The interface was revised to remove automatic answer highlighting to reduce potential visual bias. These checks demonstrate functionality, not effectiveness with real users.
+
+## AI assistance and authorship
+
+ChatGPT was used to assist with generating the prototype code, refining interface elements, preparing documentation and drafting diagrams and storyboards.
+
+The project scenario and interaction requirements were reviewed and refined during development. Generated outputs were inspected, and functional issues were identified through manual testing. The prototype was revised to reflect the intended interaction and distinguish simulated AI advice from live AI functionality.
+
+No formal user evaluation has been conducted.
